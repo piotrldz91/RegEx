@@ -18,7 +18,7 @@ public class a3 {
         // when
         Pattern pattern = Pattern.compile(patternString);
         Matcher matcher = pattern.matcher(matcherString);
-        boolean hasFound = matcher.find();
+        boolean hasFound = matcher.matches();
 
         // then
         assertTrue(hasFound);
@@ -33,7 +33,7 @@ public class a3 {
         // when
         Pattern pattern = Pattern.compile(patternString);
         Matcher matcher = pattern.matcher(matcherString);
-        boolean hasFound = matcher.find();
+        boolean hasFound = matcher.matches();
 
         // then
         assertTrue(hasFound);
@@ -48,7 +48,7 @@ public class a3 {
         // when
         Pattern pattern = Pattern.compile(patternString);
         Matcher matcher = pattern.matcher(matcherString);
-        boolean hasFound = matcher.find();
+        boolean hasFound = matcher.matches();
 
         // then
         assertFalse(hasFound);
@@ -63,7 +63,7 @@ public class a3 {
         // when
         Pattern pattern = Pattern.compile(patternString);
         Matcher matcher = pattern.matcher(matcherString);
-        boolean hasFound = matcher.find();
+        boolean hasFound = matcher.matches();
 
         // then
         assertTrue(hasFound);
@@ -78,7 +78,7 @@ public class a3 {
         // when
         Pattern pattern = Pattern.compile(patternString);
         Matcher matcher = pattern.matcher(matcherString);
-        boolean hasFound = matcher.find();
+        boolean hasFound = matcher.matches();
 
         // then
         assertTrue(hasFound);

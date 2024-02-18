@@ -102,6 +102,4 @@ public class a4 {
         // then
         assertEquals(expectedMatches, amountOfMatches);
     }
-
-
 }

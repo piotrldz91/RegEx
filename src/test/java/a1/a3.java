@@ -181,7 +181,4 @@ public class a3 {
         // then
         assertFalse(hasFound);
     }
-
-
-
 }

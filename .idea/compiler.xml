@@ -12,5 +12,8 @@
         <module name="RegEx" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="RegEx" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
